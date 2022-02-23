@@ -5,9 +5,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background: radial-gradient(#632B6C,#270F36) ;
+  min-height: 100vh;  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.inc-dec-button {
+  box-sizing: border-box;
+  padding: 14px 33px;
+  border-radius: 10px;
+  margin: 5px;
+  font-size:xx-large;
+  background-color: #270F36;
+  color: #FCC3A3
+}
+.inc-dec-button:hover {
+  background-color: #632B6C;
+  border: 5px solid black;
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin: 5px;
+  color: #C76B98;
+}
+
+.counter {
+  border: 1px solid black;
+  background-color: white;
+  margin: 30px 200px;
+  border-radius: 0px;
+  padding-bottom: 10px;
+  color: #632B6C;
+  font-size:xx-large;
+}
+
+.App-title {
+  color: #C76B98;
+  font-size: 50px;
 }
